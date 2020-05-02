@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Lobster+Two|Oswald&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e15dc358f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="contacto">
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="/img/Logo-copy.png"" alt=""></a>
+            </div>
+            <ul class="elementos-nav">
+                <li><a href="comprar.html">Comprar</a></li>
+                <li><a href="aprender.html">Aprender</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li class="submenu">
+                    <img src="img/cart.png" id="img-carrito">
+                    <div id="carrito">
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </header> <!-- Navegador -->
+
+
+<div class="contenedor-formulario">
+    <form id="enviar-mail" action="#" class="formulario">
+        <h1>Contáctanos</h1>
+        <input type="email" id="name" class="input">
+        <label for="correo">Correo:</label>
+        <input type="text" id="asunto" class="input">
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="mensaje" class="input">
+        <label for="mensaje">Mensaje:</label>
+       <!-- GIFS -->
+        <div class="gif" id="loaders">
+            <img id="spinner" src="img/spinner.gif">
+        </div>
+        <div class="botones-contacto">
+            <button id="enviar"  type="submit" class="btn-contacto">Enviar <i class="fas fa-check"> </i> </button>
+            <button id="borrar" type="submit" class="btn-contacto btn-borrar">Borrar <i class="far fa-trash-alt"></i> </i> </button>
+        </div>
+       
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="footer">
+        <div class="menu-ft">
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="aprender.html">Aprender</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </div>
+        <div class="ecostore-ft">
+            <p> <span>EcoStore</span> es una pagina diseñada por alumnos del <br> Colegio de Bachilleres como producto
+                de un proyecto escolar</p>
+        </div>
+        <div class="contacto-footer">
+            <p>¿Quieres contactar al creador de esta web?</p>
+            <p><i class="fab fa-whatsapp"></i>+55-33-13-50-16-60</p>
+        </div>
+    </div>
+    <div class="copy">
+        <p>Copyright&copy; 2020 <span>EcoStore</span> todos los derechos reservados.</p>
+    </div> -->
+
+    <script src="/js/contacto.js"></script>
+
+</body>
+
+</html>
